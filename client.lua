@@ -453,6 +453,7 @@ function spawnGoPostalVehicle()
     SetVehicleNeedsToBeHotwired(vehicle, false)
     SetVehRadioStation(vehicle, 'OFF')
     SetVehicleFuelLevel(vehicle, 100.0)
+    SetVehicleNumberPlateText(vehicle, "GOPOSTAL")
     SetModelAsNoLongerNeeded(POSTAL_VEHICLE_HASH)
 
     postalJobState.goPostalVan = vehicle
