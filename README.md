@@ -70,5 +70,3 @@ Want to collaborate, or get access to support and more? Reach out:
 - **[Check out the Showcase of the original](https://www.youtube.com/watch?v=fSwJO3C85E0)**
 - **[Join my Sanctuary](https://discord.gg/tbDe9Zjc4e)**
 - **Connect on Discord**: @baylorai
-
-![DreamScripts Logo](https://cdn.discordapp.com/attachments/998923900287205442/1166036599189020692/dreamscripts.png?ex=655241b5&is=653fccb5&hm=e16ed188536c8d0b94e5b5baef5612e0ccb907eb188b91e25c50dc6e38d8ece5&)
