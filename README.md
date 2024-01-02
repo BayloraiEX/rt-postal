@@ -1,20 +1,16 @@
-# GoPostal Job for FiveM by DreamScripts 📦
+# GoPostal Job for FiveM by Baylorai 📦
 
-Welcome to the most immersive GoPostal Job experience for your FiveM server. Crafted meticulously in Lua, this script is optimized for both QB and ESX frameworks, ensuring seamless integration irrespective of your server setup.
+Welcome to a unique but simple GoPostal Job experience for your FiveM server. Crafted meticulously in Lua, this script is optimized for both QB and ESX frameworks, ensuring seamless integration irrespective of your server setup.
 
 ## Features:
 - **Framework Compatibility**: Whether you're running on QB or ESX, this script has got you covered.
 - **Targeting Systems**: Enhanced gameplay with full support for `ox_target` & `qb-target`.
 - **Notification Systems**: Get notified whether you use QB, ESX, okok, or mythic.
 
-#### To Whitelist the job & add to `qb-cityhall`:
+#### To Whitelist the job`:
 1. In config.lua make `Config.IS_WHITELISTED_TO_JOB` true.
 2. In config.lua change `Config.WHITELISTED_JOB_TITLE` to job string of desired. We have it as `postal` by default.
-3. Add the following snippet to `qb-cityhall/config.lua`
-```lua
-['postal'] = { ['label'] = 'GoPostal', ['isManaged'] = false }
-```
-4. Add the following snippet to `qb-core/shared/jobs.lua`
+3. Add the following snippet to `qb-core/shared/jobs.lua`
 ```lua
     ['postal'] = {
         label = 'GoPostal',
@@ -71,9 +67,8 @@ Detect Clothing Outfit codes for GoPostal Outfit.
 6. Scroll to the bottom for the outfit codes and plug them into `config.lua`.
 
 Want to collaborate, or get access to support and more? Reach out:
-- **[Check out the Showcase](https://www.youtube.com/watch?v=fSwJO3C85E0)**
-- **[Join the DreamScripts Discord](https://discord.gg/mvEYGraCM2)**
-- **[Check out the Forum Post](https://forum.cfx.re/t/free-qb-esx-gopostal-job-optimized/5182086)**
-- **Connect on Discord**: @sir_kale
+- **[Check out the Showcase of the original](https://www.youtube.com/watch?v=fSwJO3C85E0)**
+- **[Join my Sanctuary](https://discord.gg/tbDe9Zjc4e)**
+- **Connect on Discord**: @baylorai
 
 ![DreamScripts Logo](https://cdn.discordapp.com/attachments/998923900287205442/1166036599189020692/dreamscripts.png?ex=655241b5&is=653fccb5&hm=e16ed188536c8d0b94e5b5baef5612e0ccb907eb188b91e25c50dc6e38d8ece5&)
