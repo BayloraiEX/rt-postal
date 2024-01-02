@@ -1,6 +1,6 @@
 CreateThread(function()
     Wait(1000)
-    print("^5Thanks for using my script! For support and questions join my Discord Server! \nhttps://discord.gg/hpmN8D4JZt^0")
+    print("^5Thanks for using my edit! For support and questions join my Discord Server! \nhttps://discord.gg/tbDe9Zjc4e")
     
     if GetResourceState("ox_target") ~= "started" and GetResourceState("qb-target") ~= "started" then
         print("^1No targeting resource found. Start the targeting resource before this script or you might be using an unsupported one.^0")
