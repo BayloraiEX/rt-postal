@@ -165,7 +165,7 @@ Config.FEMALE_OUTFIT   = {
 Config.GO_POSTAL_HQ_BLIP = {
     sprite  = 738,
     display = 4,
-    scale   = 0.5,
+    scale   = 0.47,
     colour  = 6,
     label   = 'GoPostal HQ',
 }
@@ -174,7 +174,7 @@ Config.GO_POSTAL_HQ_BLIP = {
 Config.PICK_UP_BLIP = {
     sprite  = 351,
     display = 4,
-    scale   = 0.8,
+    scale   = 0.5,
     colour  = 38,
     label   = 'Package Pick up',
 }
@@ -183,7 +183,7 @@ Config.PICK_UP_BLIP = {
 Config.DROP_OFF_BLIP = {
     sprite  = 280,
     display = 4,
-    scale   = 0.8,
+    scale   = 0.5,
     colour  = 38,
     label   = 'Package Drop off',
 }
