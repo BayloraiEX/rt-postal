@@ -10,6 +10,7 @@ shared_scripts {
     'locales/*.lua',
     'translate_util.lua',
     '@ox_lib/init.lua',
+    'checks.lua',
 }
 
 client_scripts {
