@@ -94,9 +94,9 @@ RegisterServerEvent('rt-postal:server:compensateDelivery', function(positionSet)
     TriggerEvent("rt-postal:server:log", { source = source, type = "success", message = t('delivered_a_package')})
 end)
 
-local DISCORD_WEBHOOK = 'https://discord.com/api/webhooks/1191631924494610503/ytYm2Sb5l-naKUgqS1E2lZgTXdcfrX1J4GR-TNy8njfKcKrNNUbloB-h7pTx2DoSk8S8'                         -- Your discord webhook here
-local COLOR = '1327473'                                                                                                                             -- Color of the embed
-local DISCORD_NAME = "RetakeRP"                                                                                                            -- Name of the bot
+local DISCORD_WEBHOOK = ''                         -- Your discord webhook here
+local COLOR = '1327473'                            -- Color of the embed
+local DISCORD_NAME = "RetakeRP"                    -- Name of the bot
 local DISCORD_IMAGE = "https://img.freepik.com/premium-vector/cute-robot-waving-hand-cartoon-illustration_138676-2744.jpg?w=2000"
 local LOG_FOOTER = '[RetakeRP LOGS]'
 
