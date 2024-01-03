@@ -1,7 +1,11 @@
-# GoPostal Job for FiveM by Baylorai 📦
+# GoPostal Job for FiveM edited by Baylorai 📦
 
-Welcome to a unique but simple GoPostal Job experience for your FiveM server. Crafted meticulously in Lua, this script is optimized for both QB and ESX frameworks, ensuring seamless integration irrespective of your server setup.
+I take no credit for the code, i simply edited it to fit my server
 
+## My Edit Features:
+- Vehicle License plate to "GOPOSTAL"
+- Changed pay outcome to match my city
+- Removed qb-cityhall stuff as i dont use in my city
 ## Features:
 - **Framework Compatibility**: Whether you're running on QB or ESX, this script has got you covered.
 - **Targeting Systems**: Enhanced gameplay with full support for `ox_target` & `qb-target`.
@@ -14,23 +18,23 @@ Welcome to a unique but simple GoPostal Job experience for your FiveM server. Cr
 ```lua
     ['postal'] = {
         label = 'GoPostal',
-        defaultDuty = false,
+        defaultDuty = true,
         offDutyPay = false,
         grades = {
             [0] = {
                 name = 'Delivery Driver',
-                payment = 0,
+                payment = 10,
                 isboss = false,
             },
             [1] = {
                 name = 'Manager',
                 isboss = true,
-                payment = 0
+                payment = 12
             },
             [2] = {
                 name = 'Boss',
                 isboss = true,
-                payment = 0
+                payment = 15
             },
         }
     },
